@@ -1,0 +1,2025 @@
+{
+  "causes": [
+    {
+      "id": 295,
+      "name": "Communicable, maternal, neonatal, and nutritional diseases",
+      "cause": "A",
+      "subcauses": [
+        {
+          "id": 955,
+          "name": "HIV/AIDS and sexually transmitted infections",
+          "cause": "A.1",
+          "subcauses": [
+            {
+              "id": 298,
+              "name": "HIV/AIDS",
+              "cause": "A.1.1",
+              "subcauses": [
+                {
+                  "id": 948,
+                  "name": "HIV/AIDS - Drug-susceptible Tuberculosis",
+                  "cause": "A.1.1.1"
+                },
+                {
+                  "id": 949,
+                  "name": "HIV/AIDS - Multidrug-resistant Tuberculosis without extensive drug resistance",
+                  "cause": "A.1.1.2"
+                },
+                {
+                  "id": 950,
+                  "name": "HIV/AIDS - Extensively drug-resistant Tuberculosis",
+                  "cause": "A.1.1.3"
+                },
+                {
+                  "id": 300,
+                  "name": "HIV/AIDS resulting in other diseases",
+                  "cause": "A.1.1.4"
+                }
+              ]
+            },
+            {
+              "id": 393,
+              "name": "Sexually transmitted infections excluding HIV",
+              "cause": "A.1.2",
+              "subcauses": [
+                {
+                  "id": 394,
+                  "name": "Syphilis",
+                  "cause": "A.1.2.1"
+                },
+                {
+                  "id": 395,
+                  "name": "Chlamydial infection",
+                  "cause": "A.1.2.2"
+                },
+                {
+                  "id": 396,
+                  "name": "Gonococcal infection",
+                  "cause": "A.1.2.3"
+                },
+                {
+                  "id": 397,
+                  "name": "Trichomoniasis",
+                  "cause": "A.1.2.4"
+                },
+                {
+                  "id": 398,
+                  "name": "Genital herpes",
+                  "cause": "A.1.2.5"
+                },
+                {
+                  "id": 399,
+                  "name": "Other sexually transmitted infections",
+                  "cause": "A.1.2.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 956,
+          "name": "Respiratory infections and tuberculosis",
+          "cause": "A.2",
+          "subcauses": [
+            {
+              "id": 297,
+              "name": "Tuberculosis",
+              "cause": "A.2.1",
+              "subcauses": [
+                {
+                  "id": 954,
+                  "name": "Latent tuberculosis infection",
+                  "cause": "A.2.1.1"
+                },
+                {
+                  "id": 934,
+                  "name": "Drug-susceptible tuberculosis",
+                  "cause": "A.2.1.2"
+                },
+                {
+                  "id": 946,
+                  "name": "Multidrug-resistant tuberculosis without extensive drug resistance",
+                  "cause": "A.2.1.3"
+                },
+                {
+                  "id": 947,
+                  "name": "Extensively drug-resistant tuberculosis",
+                  "cause": "A.2.1.4"
+                }
+              ]
+            },
+            {
+              "id": 322,
+              "name": "Lower respiratory infections",
+              "cause": "A.2.2"
+            },
+            {
+              "id": 328,
+              "name": "Upper respiratory infections",
+              "cause": "A.2.3"
+            },
+            {
+              "id": 329,
+              "name": "Otitis media",
+              "cause": "A.2.4"
+            },
+            {
+              "id": 1048,
+              "name": "COVID-19",
+              "cause": "A.2.5"
+            }
+          ]
+        },
+        {
+          "id": 957,
+          "name": "Enteric infections",
+          "cause": "A.3",
+          "subcauses": [
+            {
+              "id": 302,
+              "name": "Diarrheal diseases",
+              "cause": "A.3.1"
+            },
+            {
+              "id": 958,
+              "name": "Typhoid and paratyphoid",
+              "cause": "A.3.2",
+              "subcauses": [
+                {
+                  "id": 319,
+                  "name": "Typhoid fever",
+                  "cause": "A.3.2.1"
+                },
+                {
+                  "id": 320,
+                  "name": "Paratyphoid fever",
+                  "cause": "A.3.2.2"
+                }
+              ]
+            },
+            {
+              "id": 959,
+              "name": "Invasive Non-typhoidal Salmonella (iNTS)",
+              "cause": "A.3.3"
+            },
+            {
+              "id": 321,
+              "name": "Other intestinal infectious diseases",
+              "cause": "A.3.5"
+            }
+          ]
+        },
+        {
+          "id": 344,
+          "name": "Neglected tropical diseases and malaria",
+          "cause": "A.4",
+          "subcauses": [
+            {
+              "id": 345,
+              "name": "Malaria",
+              "cause": "A.4.1"
+            },
+            {
+              "id": 356,
+              "name": "Trachoma",
+              "cause": "A.4.10"
+            },
+            {
+              "id": 357,
+              "name": "Dengue",
+              "cause": "A.4.11"
+            },
+            {
+              "id": 358,
+              "name": "Yellow fever",
+              "cause": "A.4.12"
+            },
+            {
+              "id": 359,
+              "name": "Rabies",
+              "cause": "A.4.13"
+            },
+            {
+              "id": 360,
+              "name": "Intestinal nematode infections",
+              "cause": "A.4.14",
+              "subcauses": [
+                {
+                  "id": 361,
+                  "name": "Ascariasis",
+                  "cause": "A.4.14.1"
+                },
+                {
+                  "id": 362,
+                  "name": "Trichuriasis",
+                  "cause": "A.4.14.2"
+                },
+                {
+                  "id": 363,
+                  "name": "Hookworm disease",
+                  "cause": "A.4.14.3"
+                }
+              ]
+            },
+            {
+              "id": 364,
+              "name": "Food-borne trematodiases",
+              "cause": "A.4.15"
+            },
+            {
+              "id": 405,
+              "name": "Leprosy",
+              "cause": "A.4.16"
+            },
+            {
+              "id": 843,
+              "name": "Ebola",
+              "cause": "A.4.17"
+            },
+            {
+              "id": 935,
+              "name": "Zika virus",
+              "cause": "A.4.18"
+            },
+            {
+              "id": 936,
+              "name": "Guinea worm disease",
+              "cause": "A.4.19"
+            },
+            {
+              "id": 346,
+              "name": "Chagas disease",
+              "cause": "A.4.2"
+            },
+            {
+              "id": 365,
+              "name": "Other neglected tropical diseases",
+              "cause": "A.4.20"
+            },
+            {
+              "id": 347,
+              "name": "Leishmaniasis",
+              "cause": "A.4.3",
+              "subcauses": [
+                {
+                  "id": 348,
+                  "name": "Visceral leishmaniasis",
+                  "cause": "A.4.3.1"
+                },
+                {
+                  "id": 349,
+                  "name": "Cutaneous and mucocutaneous leishmaniasis",
+                  "cause": "A.4.3.2"
+                }
+              ]
+            },
+            {
+              "id": 350,
+              "name": "African trypanosomiasis",
+              "cause": "A.4.4"
+            },
+            {
+              "id": 351,
+              "name": "Schistosomiasis",
+              "cause": "A.4.5"
+            },
+            {
+              "id": 352,
+              "name": "Cysticercosis",
+              "cause": "A.4.6"
+            },
+            {
+              "id": 353,
+              "name": "Cystic echinococcosis",
+              "cause": "A.4.7"
+            },
+            {
+              "id": 354,
+              "name": "Lymphatic filariasis",
+              "cause": "A.4.8"
+            },
+            {
+              "id": 355,
+              "name": "Onchocerciasis",
+              "cause": "A.4.9"
+            }
+          ]
+        },
+        {
+          "id": 961,
+          "name": "Other infectious diseases",
+          "cause": "A.5",
+          "subcauses": [
+            {
+              "id": 332,
+              "name": "Meningitis",
+              "cause": "A.5.1"
+            },
+            {
+              "id": 337,
+              "name": "Encephalitis",
+              "cause": "A.5.2"
+            },
+            {
+              "id": 338,
+              "name": "Diphtheria",
+              "cause": "A.5.3"
+            },
+            {
+              "id": 339,
+              "name": "Pertussis",
+              "cause": "A.5.4"
+            },
+            {
+              "id": 340,
+              "name": "Tetanus",
+              "cause": "A.5.5"
+            },
+            {
+              "id": 341,
+              "name": "Measles",
+              "cause": "A.5.6"
+            },
+            {
+              "id": 342,
+              "name": "Varicella and herpes zoster",
+              "cause": "A.5.7"
+            },
+            {
+              "id": 400,
+              "name": "Acute hepatitis",
+              "cause": "A.5.8",
+              "subcauses": [
+                {
+                  "id": 401,
+                  "name": "Acute hepatitis A",
+                  "cause": "A.5.8.1"
+                },
+                {
+                  "id": 402,
+                  "name": "Acute hepatitis B",
+                  "cause": "A.5.8.2"
+                },
+                {
+                  "id": 403,
+                  "name": "Acute hepatitis C",
+                  "cause": "A.5.8.3"
+                },
+                {
+                  "id": 404,
+                  "name": "Acute hepatitis E",
+                  "cause": "A.5.8.4"
+                }
+              ]
+            },
+            {
+              "id": 408,
+              "name": "Other unspecified infectious diseases",
+              "cause": "A.5.9"
+            }
+          ]
+        },
+        {
+          "id": 962,
+          "name": "Maternal and neonatal disorders",
+          "cause": "A.6",
+          "subcauses": [
+            {
+              "id": 366,
+              "name": "Maternal disorders",
+              "cause": "A.6.1",
+              "subcauses": [
+                {
+                  "id": 367,
+                  "name": "Maternal hemorrhage",
+                  "cause": "A.6.1.1"
+                },
+                {
+                  "id": 379,
+                  "name": "Other direct maternal disorders",
+                  "cause": "A.6.1.10"
+                },
+                {
+                  "id": 368,
+                  "name": "Maternal sepsis and other maternal infections",
+                  "cause": "A.6.1.2"
+                },
+                {
+                  "id": 369,
+                  "name": "Maternal hypertensive disorders",
+                  "cause": "A.6.1.3"
+                },
+                {
+                  "id": 370,
+                  "name": "Maternal obstructed labor and uterine rupture",
+                  "cause": "A.6.1.4"
+                },
+                {
+                  "id": 995,
+                  "name": "Maternal abortion and miscarriage",
+                  "cause": "A.6.1.5"
+                },
+                {
+                  "id": 374,
+                  "name": "Ectopic pregnancy",
+                  "cause": "A.6.1.6"
+                },
+                {
+                  "id": 375,
+                  "name": "Indirect maternal deaths",
+                  "cause": "A.6.1.7"
+                },
+                {
+                  "id": 376,
+                  "name": "Late maternal deaths",
+                  "cause": "A.6.1.8"
+                },
+                {
+                  "id": 741,
+                  "name": "Maternal deaths aggravated by HIV/AIDS",
+                  "cause": "A.6.1.9"
+                }
+              ]
+            },
+            {
+              "id": 380,
+              "name": "Neonatal disorders",
+              "cause": "A.6.2",
+              "subcauses": [
+                {
+                  "id": 381,
+                  "name": "Neonatal preterm birth",
+                  "cause": "A.6.2.1"
+                },
+                {
+                  "id": 382,
+                  "name": "Neonatal encephalopathy due to birth asphyxia and trauma",
+                  "cause": "A.6.2.2"
+                },
+                {
+                  "id": 383,
+                  "name": "Neonatal sepsis and other neonatal infections",
+                  "cause": "A.6.2.3"
+                },
+                {
+                  "id": 384,
+                  "name": "Hemolytic disease and other neonatal jaundice",
+                  "cause": "A.6.2.4"
+                },
+                {
+                  "id": 385,
+                  "name": "Other neonatal disorders",
+                  "cause": "A.6.2.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 386,
+          "name": "Nutritional deficiencies",
+          "cause": "A.7",
+          "subcauses": [
+            {
+              "id": 387,
+              "name": "Protein-energy malnutrition",
+              "cause": "A.7.1"
+            },
+            {
+              "id": 388,
+              "name": "Iodine deficiency",
+              "cause": "A.7.2"
+            },
+            {
+              "id": 389,
+              "name": "Vitamin A deficiency",
+              "cause": "A.7.3"
+            },
+            {
+              "id": 390,
+              "name": "Dietary iron deficiency",
+              "cause": "A.7.4"
+            },
+            {
+              "id": 391,
+              "name": "Other nutritional deficiencies",
+              "cause": "A.7.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 409,
+      "name": "Non-communicable diseases",
+      "cause": "B",
+      "subcauses": [
+        {
+          "id": 410,
+          "name": "Neoplasms",
+          "cause": "B.1",
+          "subcauses": [
+            {
+              "id": 444,
+              "name": "Lip and oral cavity cancer",
+              "cause": "B.1.1"
+            },
+            {
+              "id": 423,
+              "name": "Larynx cancer",
+              "cause": "B.1.10"
+            },
+            {
+              "id": 426,
+              "name": "Tracheal, bronchus, and lung cancer",
+              "cause": "B.1.11"
+            },
+            {
+              "id": 459,
+              "name": "Malignant skin melanoma",
+              "cause": "B.1.12"
+            },
+            {
+              "id": 462,
+              "name": "Non-melanoma skin cancer",
+              "cause": "B.1.13",
+              "subcauses": [
+                {
+                  "id": 849,
+                  "name": "Non-melanoma skin cancer (squamous-cell carcinoma)",
+                  "cause": "B.1.13.1"
+                },
+                {
+                  "id": 850,
+                  "name": "Non-melanoma skin cancer (basal-cell carcinoma)",
+                  "cause": "B.1.13.2"
+                }
+              ]
+            },
+            {
+              "id": 1011,
+              "name": "Soft tissue and other extraosseous sarcomas",
+              "cause": "B.1.14"
+            },
+            {
+              "id": 1012,
+              "name": "Malignant neoplasm of bone and articular cartilage",
+              "cause": "B.1.15"
+            },
+            {
+              "id": 429,
+              "name": "Breast cancer",
+              "cause": "B.1.16"
+            },
+            {
+              "id": 432,
+              "name": "Cervical cancer",
+              "cause": "B.1.17"
+            },
+            {
+              "id": 435,
+              "name": "Uterine cancer",
+              "cause": "B.1.18"
+            },
+            {
+              "id": 465,
+              "name": "Ovarian cancer",
+              "cause": "B.1.19"
+            },
+            {
+              "id": 447,
+              "name": "Nasopharynx cancer",
+              "cause": "B.1.2"
+            },
+            {
+              "id": 438,
+              "name": "Prostate cancer",
+              "cause": "B.1.20"
+            },
+            {
+              "id": 468,
+              "name": "Testicular cancer",
+              "cause": "B.1.21"
+            },
+            {
+              "id": 471,
+              "name": "Kidney cancer",
+              "cause": "B.1.22"
+            },
+            {
+              "id": 474,
+              "name": "Bladder cancer",
+              "cause": "B.1.23"
+            },
+            {
+              "id": 477,
+              "name": "Brain and central nervous system cancer",
+              "cause": "B.1.24"
+            },
+            {
+              "id": 1008,
+              "name": "Eye cancer",
+              "cause": "B.1.25",
+              "subcauses": [
+                {
+                  "id": 1009,
+                  "name": "Retinoblastoma",
+                  "cause": "B.1.25.1"
+                },
+                {
+                  "id": 1010,
+                  "name": "Other eye cancers",
+                  "cause": "B.1.25.2"
+                }
+              ]
+            },
+            {
+              "id": 1013,
+              "name": "Neuroblastoma and other peripheral nervous cell tumors",
+              "cause": "B.1.26"
+            },
+            {
+              "id": 480,
+              "name": "Thyroid cancer",
+              "cause": "B.1.27"
+            },
+            {
+              "id": 483,
+              "name": "Mesothelioma",
+              "cause": "B.1.28"
+            },
+            {
+              "id": 484,
+              "name": "Hodgkin lymphoma",
+              "cause": "B.1.29"
+            },
+            {
+              "id": 450,
+              "name": "Other pharynx cancer",
+              "cause": "B.1.3"
+            },
+            {
+              "id": 485,
+              "name": "Non-Hodgkin lymphoma",
+              "cause": "B.1.30",
+              "subcauses": [
+                {
+                  "id": 1006,
+                  "name": "Burkitt lymphoma",
+                  "cause": "B.1.30.1"
+                },
+                {
+                  "id": 1007,
+                  "name": "Other non-Hodgkin lymphoma",
+                  "cause": "B.1.30.2"
+                }
+              ]
+            },
+            {
+              "id": 486,
+              "name": "Multiple myeloma",
+              "cause": "B.1.31"
+            },
+            {
+              "id": 487,
+              "name": "Leukemia",
+              "cause": "B.1.32",
+              "subcauses": [
+                {
+                  "id": 845,
+                  "name": "Acute lymphoid leukemia",
+                  "cause": "B.1.32.1"
+                },
+                {
+                  "id": 846,
+                  "name": "Chronic lymphoid leukemia",
+                  "cause": "B.1.32.2"
+                },
+                {
+                  "id": 847,
+                  "name": "Acute myeloid leukemia",
+                  "cause": "B.1.32.3"
+                },
+                {
+                  "id": 848,
+                  "name": "Chronic myeloid leukemia",
+                  "cause": "B.1.32.4"
+                },
+                {
+                  "id": 943,
+                  "name": "Other leukemia",
+                  "cause": "B.1.32.5"
+                }
+              ]
+            },
+            {
+              "id": 489,
+              "name": "Other malignant neoplasms",
+              "cause": "B.1.33"
+            },
+            {
+              "id": 490,
+              "name": "Other neoplasms",
+              "cause": "B.1.34",
+              "subcauses": [
+                {
+                  "id": 964,
+                  "name": "Myelodysplastic, myeloproliferative, and other hematopoietic neoplasms",
+                  "cause": "B.1.34.1"
+                },
+                {
+                  "id": 965,
+                  "name": "Benign and in situ intestinal neoplasms",
+                  "cause": "B.1.34.2"
+                },
+                {
+                  "id": 966,
+                  "name": "Benign and in situ cervical and uterine neoplasms",
+                  "cause": "B.1.34.3"
+                },
+                {
+                  "id": 967,
+                  "name": "Other benign and in situ neoplasms",
+                  "cause": "B.1.34.4"
+                }
+              ]
+            },
+            {
+              "id": 411,
+              "name": "Esophageal cancer",
+              "cause": "B.1.4"
+            },
+            {
+              "id": 414,
+              "name": "Stomach cancer",
+              "cause": "B.1.5"
+            },
+            {
+              "id": 441,
+              "name": "Colon and rectum cancer",
+              "cause": "B.1.6"
+            },
+            {
+              "id": 417,
+              "name": "Liver cancer",
+              "cause": "B.1.7",
+              "subcauses": [
+                {
+                  "id": 418,
+                  "name": "Liver cancer due to hepatitis B",
+                  "cause": "B.1.7.1"
+                },
+                {
+                  "id": 419,
+                  "name": "Liver cancer due to hepatitis C",
+                  "cause": "B.1.7.2"
+                },
+                {
+                  "id": 420,
+                  "name": "Liver cancer due to alcohol use",
+                  "cause": "B.1.7.3"
+                },
+                {
+                  "id": 996,
+                  "name": "Liver cancer due to NASH",
+                  "cause": "B.1.7.4"
+                },
+                {
+                  "id": 1005,
+                  "name": "Hepatoblastoma",
+                  "cause": "B.1.7.5"
+                },
+                {
+                  "id": 421,
+                  "name": "Liver cancer due to other causes",
+                  "cause": "B.1.7.6"
+                }
+              ]
+            },
+            {
+              "id": 453,
+              "name": "Gallbladder and biliary tract cancer",
+              "cause": "B.1.8"
+            },
+            {
+              "id": 456,
+              "name": "Pancreatic cancer",
+              "cause": "B.1.9"
+            }
+          ]
+        },
+        {
+          "id": 669,
+          "name": "Sense organ diseases",
+          "cause": "B.10",
+          "subcauses": [
+            {
+              "id": 981,
+              "name": "Blindness and vision loss",
+              "cause": "B.10.1",
+              "subcauses": [
+                {
+                  "id": 670,
+                  "name": "Glaucoma",
+                  "cause": "B.10.1.1"
+                },
+                {
+                  "id": 671,
+                  "name": "Cataract",
+                  "cause": "B.10.1.2"
+                },
+                {
+                  "id": 672,
+                  "name": "Age-related macular degeneration",
+                  "cause": "B.10.1.3"
+                },
+                {
+                  "id": 999,
+                  "name": "Refraction disorders",
+                  "cause": "B.10.1.4"
+                },
+                {
+                  "id": 1000,
+                  "name": "Near vision loss",
+                  "cause": "B.10.1.5"
+                },
+                {
+                  "id": 675,
+                  "name": "Other vision loss",
+                  "cause": "B.10.1.6"
+                }
+              ]
+            },
+            {
+              "id": 674,
+              "name": "Age-related and other hearing loss",
+              "cause": "B.10.2"
+            },
+            {
+              "id": 679,
+              "name": "Other sense organ diseases",
+              "cause": "B.10.3"
+            }
+          ]
+        },
+        {
+          "id": 626,
+          "name": "Musculoskeletal disorders",
+          "cause": "B.11",
+          "subcauses": [
+            {
+              "id": 627,
+              "name": "Rheumatoid arthritis",
+              "cause": "B.11.1"
+            },
+            {
+              "id": 628,
+              "name": "Osteoarthritis",
+              "cause": "B.11.2",
+              "subcauses": [
+                {
+                  "id": 1014,
+                  "name": "Osteoarthritis hip",
+                  "cause": "B.11.2.1"
+                },
+                {
+                  "id": 1015,
+                  "name": "Osteoarthritis knee",
+                  "cause": "B.11.2.2"
+                },
+                {
+                  "id": 1016,
+                  "name": "Osteoarthritis hand",
+                  "cause": "B.11.2.3"
+                },
+                {
+                  "id": 1017,
+                  "name": "Osteoarthritis other",
+                  "cause": "B.11.2.4"
+                }
+              ]
+            },
+            {
+              "id": 630,
+              "name": "Low back pain",
+              "cause": "B.11.3"
+            },
+            {
+              "id": 631,
+              "name": "Neck pain",
+              "cause": "B.11.4"
+            },
+            {
+              "id": 632,
+              "name": "Gout",
+              "cause": "B.11.5"
+            },
+            {
+              "id": 639,
+              "name": "Other musculoskeletal disorders",
+              "cause": "B.11.6"
+            }
+          ]
+        },
+        {
+          "id": 640,
+          "name": "Other non-communicable diseases",
+          "cause": "B.12",
+          "subcauses": [
+            {
+              "id": 641,
+              "name": "Congenital birth defects",
+              "cause": "B.12.1",
+              "subcauses": [
+                {
+                  "id": 642,
+                  "name": "Neural tube defects",
+                  "cause": "B.12.1.1"
+                },
+                {
+                  "id": 651,
+                  "name": "Digestive congenital anomalies",
+                  "cause": "B.12.1.10"
+                },
+                {
+                  "id": 652,
+                  "name": "Other congenital birth defects",
+                  "cause": "B.12.1.11"
+                },
+                {
+                  "id": 643,
+                  "name": "Congenital heart anomalies",
+                  "cause": "B.12.1.2"
+                },
+                {
+                  "id": 644,
+                  "name": "Orofacial clefts",
+                  "cause": "B.12.1.3"
+                },
+                {
+                  "id": 645,
+                  "name": "Down syndrome",
+                  "cause": "B.12.1.4"
+                },
+                {
+                  "id": 646,
+                  "name": "Turner syndrome",
+                  "cause": "B.12.1.5"
+                },
+                {
+                  "id": 647,
+                  "name": "Klinefelter syndrome",
+                  "cause": "B.12.1.6"
+                },
+                {
+                  "id": 648,
+                  "name": "Other chromosomal abnormalities",
+                  "cause": "B.12.1.7"
+                },
+                {
+                  "id": 649,
+                  "name": "Congenital musculoskeletal and limb anomalies",
+                  "cause": "B.12.1.8"
+                },
+                {
+                  "id": 650,
+                  "name": "Urogenital congenital anomalies",
+                  "cause": "B.12.1.9"
+                }
+              ]
+            },
+            {
+              "id": 594,
+              "name": "Urinary diseases and male infertility",
+              "cause": "B.12.2",
+              "subcauses": [
+                {
+                  "id": 595,
+                  "name": "Urinary tract infections and interstitial nephritis",
+                  "cause": "B.12.2.1"
+                },
+                {
+                  "id": 596,
+                  "name": "Urolithiasis",
+                  "cause": "B.12.2.2"
+                },
+                {
+                  "id": 597,
+                  "name": "Benign prostatic hyperplasia",
+                  "cause": "B.12.2.3"
+                },
+                {
+                  "id": 598,
+                  "name": "Male infertility",
+                  "cause": "B.12.2.4"
+                },
+                {
+                  "id": 602,
+                  "name": "Other urinary diseases",
+                  "cause": "B.12.2.5"
+                }
+              ]
+            },
+            {
+              "id": 603,
+              "name": "Gynecological diseases",
+              "cause": "B.12.3",
+              "subcauses": [
+                {
+                  "id": 604,
+                  "name": "Uterine fibroids",
+                  "cause": "B.12.3.1"
+                },
+                {
+                  "id": 605,
+                  "name": "Polycystic ovarian syndrome",
+                  "cause": "B.12.3.2"
+                },
+                {
+                  "id": 606,
+                  "name": "Female infertility",
+                  "cause": "B.12.3.3"
+                },
+                {
+                  "id": 607,
+                  "name": "Endometriosis",
+                  "cause": "B.12.3.4"
+                },
+                {
+                  "id": 608,
+                  "name": "Genital prolapse",
+                  "cause": "B.12.3.5"
+                },
+                {
+                  "id": 609,
+                  "name": "Premenstrual syndrome",
+                  "cause": "B.12.3.6"
+                },
+                {
+                  "id": 612,
+                  "name": "Other gynecological diseases",
+                  "cause": "B.12.3.7"
+                }
+              ]
+            },
+            {
+              "id": 613,
+              "name": "Hemoglobinopathies and hemolytic anemias",
+              "cause": "B.12.4",
+              "subcauses": [
+                {
+                  "id": 614,
+                  "name": "Thalassemias",
+                  "cause": "B.12.4.1"
+                },
+                {
+                  "id": 837,
+                  "name": "Thalassemias trait",
+                  "cause": "B.12.4.2"
+                },
+                {
+                  "id": 615,
+                  "name": "Sickle cell disorders",
+                  "cause": "B.12.4.3"
+                },
+                {
+                  "id": 838,
+                  "name": "Sickle cell trait",
+                  "cause": "B.12.4.4"
+                },
+                {
+                  "id": 616,
+                  "name": "G6PD deficiency",
+                  "cause": "B.12.4.5"
+                },
+                {
+                  "id": 839,
+                  "name": "G6PD trait",
+                  "cause": "B.12.4.6"
+                },
+                {
+                  "id": 618,
+                  "name": "Other hemoglobinopathies and hemolytic anemias",
+                  "cause": "B.12.4.7"
+                }
+              ]
+            },
+            {
+              "id": 619,
+              "name": "Endocrine, metabolic, blood, and immune disorders",
+              "cause": "B.12.5"
+            },
+            {
+              "id": 680,
+              "name": "Oral disorders",
+              "cause": "B.12.6",
+              "subcauses": [
+                {
+                  "id": 681,
+                  "name": "Caries of deciduous teeth",
+                  "cause": "B.12.6.1"
+                },
+                {
+                  "id": 682,
+                  "name": "Caries of permanent teeth",
+                  "cause": "B.12.6.2"
+                },
+                {
+                  "id": 683,
+                  "name": "Periodontal diseases",
+                  "cause": "B.12.6.3"
+                },
+                {
+                  "id": 684,
+                  "name": "Edentulism",
+                  "cause": "B.12.6.4"
+                },
+                {
+                  "id": 685,
+                  "name": "Other oral disorders",
+                  "cause": "B.12.6.5"
+                }
+              ]
+            },
+            {
+              "id": 686,
+              "name": "Sudden infant death syndrome",
+              "cause": "B.12.7"
+            }
+          ]
+        },
+        {
+          "id": 491,
+          "name": "Cardiovascular diseases",
+          "cause": "B.2",
+          "subcauses": [
+            {
+              "id": 492,
+              "name": "Rheumatic heart disease",
+              "cause": "B.2.1"
+            },
+            {
+              "id": 502,
+              "name": "Lower extremity peripheral arterial disease",
+              "cause": "B.2.10"
+            },
+            {
+              "id": 503,
+              "name": "Endocarditis",
+              "cause": "B.2.11"
+            },
+            {
+              "id": 507,
+              "name": "Other cardiovascular and circulatory diseases",
+              "cause": "B.2.12"
+            },
+            {
+              "id": 493,
+              "name": "Ischemic heart disease",
+              "cause": "B.2.2"
+            },
+            {
+              "id": 494,
+              "name": "Stroke",
+              "cause": "B.2.3",
+              "subcauses": [
+                {
+                  "id": 495,
+                  "name": "Ischemic stroke",
+                  "cause": "B.2.3.1"
+                },
+                {
+                  "id": 496,
+                  "name": "Intracerebral hemorrhage",
+                  "cause": "B.2.3.2"
+                },
+                {
+                  "id": 497,
+                  "name": "Subarachnoid hemorrhage",
+                  "cause": "B.2.3.3"
+                }
+              ]
+            },
+            {
+              "id": 498,
+              "name": "Hypertensive heart disease",
+              "cause": "B.2.4"
+            },
+            {
+              "id": 504,
+              "name": "Non-rheumatic valvular heart disease",
+              "cause": "B.2.5",
+              "subcauses": [
+                {
+                  "id": 968,
+                  "name": "Non-rheumatic calcific aortic valve disease",
+                  "cause": "B.2.5.1"
+                },
+                {
+                  "id": 969,
+                  "name": "Non-rheumatic degenerative mitral valve disease",
+                  "cause": "B.2.5.2"
+                },
+                {
+                  "id": 970,
+                  "name": "Other non-rheumatic valve diseases",
+                  "cause": "B.2.5.3"
+                }
+              ]
+            },
+            {
+              "id": 499,
+              "name": "Cardiomyopathy and myocarditis",
+              "cause": "B.2.6",
+              "subcauses": [
+                {
+                  "id": 942,
+                  "name": "Myocarditis",
+                  "cause": "B.2.6.1"
+                },
+                {
+                  "id": 938,
+                  "name": "Alcoholic cardiomyopathy",
+                  "cause": "B.2.6.2"
+                },
+                {
+                  "id": 944,
+                  "name": "Other cardiomyopathy",
+                  "cause": "B.2.6.3"
+                }
+              ]
+            },
+            {
+              "id": 1004,
+              "name": "Pulmonary Arterial Hypertension",
+              "cause": "B.2.7"
+            },
+            {
+              "id": 500,
+              "name": "Atrial fibrillation and flutter",
+              "cause": "B.2.8"
+            },
+            {
+              "id": 501,
+              "name": "Aortic aneurysm",
+              "cause": "B.2.9"
+            }
+          ]
+        },
+        {
+          "id": 508,
+          "name": "Chronic respiratory diseases",
+          "cause": "B.3",
+          "subcauses": [
+            {
+              "id": 509,
+              "name": "Chronic obstructive pulmonary disease",
+              "cause": "B.3.1"
+            },
+            {
+              "id": 510,
+              "name": "Pneumoconiosis",
+              "cause": "B.3.2",
+              "subcauses": [
+                {
+                  "id": 511,
+                  "name": "Silicosis",
+                  "cause": "B.3.2.1"
+                },
+                {
+                  "id": 512,
+                  "name": "Asbestosis",
+                  "cause": "B.3.2.2"
+                },
+                {
+                  "id": 513,
+                  "name": "Coal workers pneumoconiosis",
+                  "cause": "B.3.2.3"
+                },
+                {
+                  "id": 514,
+                  "name": "Other pneumoconiosis",
+                  "cause": "B.3.2.4"
+                }
+              ]
+            },
+            {
+              "id": 515,
+              "name": "Asthma",
+              "cause": "B.3.3"
+            },
+            {
+              "id": 516,
+              "name": "Interstitial lung disease and pulmonary sarcoidosis",
+              "cause": "B.3.4"
+            },
+            {
+              "id": 520,
+              "name": "Other chronic respiratory diseases",
+              "cause": "B.3.5"
+            }
+          ]
+        },
+        {
+          "id": 526,
+          "name": "Digestive diseases",
+          "cause": "B.4",
+          "subcauses": [
+            {
+              "id": 521,
+              "name": "Cirrhosis and other chronic liver diseases",
+              "cause": "B.4.1",
+              "subcauses": [
+                {
+                  "id": 522,
+                  "name": "Chronic hepatitis B including cirrhosis",
+                  "cause": "B.4.1.1"
+                },
+                {
+                  "id": 523,
+                  "name": "Chronic hepatitis C including cirrhosis",
+                  "cause": "B.4.1.2"
+                },
+                {
+                  "id": 524,
+                  "name": "Cirrhosis due to alcohol",
+                  "cause": "B.4.1.3"
+                },
+                {
+                  "id": 971,
+                  "name": "Nonalcoholic fatty liver disease including cirrhosis",
+                  "cause": "B.4.1.4"
+                },
+                {
+                  "id": 525,
+                  "name": "Cirrhosis due to other causes",
+                  "cause": "B.4.1.5"
+                }
+              ]
+            },
+            {
+              "id": 541,
+              "name": "Other digestive diseases",
+              "cause": "B.4.10"
+            },
+            {
+              "id": 992,
+              "name": "Upper digestive system diseases",
+              "cause": "B.4.2",
+              "subcauses": [
+                {
+                  "id": 527,
+                  "name": "Peptic ulcer disease",
+                  "cause": "B.4.2.1"
+                },
+                {
+                  "id": 528,
+                  "name": "Gastritis and duodenitis",
+                  "cause": "B.4.2.2"
+                },
+                {
+                  "id": 536,
+                  "name": "Gastroesophageal reflux disease",
+                  "cause": "B.4.2.3"
+                }
+              ]
+            },
+            {
+              "id": 529,
+              "name": "Appendicitis",
+              "cause": "B.4.3"
+            },
+            {
+              "id": 530,
+              "name": "Paralytic ileus and intestinal obstruction",
+              "cause": "B.4.4"
+            },
+            {
+              "id": 531,
+              "name": "Inguinal, femoral, and abdominal hernia",
+              "cause": "B.4.5"
+            },
+            {
+              "id": 532,
+              "name": "Inflammatory bowel disease",
+              "cause": "B.4.6"
+            },
+            {
+              "id": 533,
+              "name": "Vascular intestinal disorders",
+              "cause": "B.4.7"
+            },
+            {
+              "id": 534,
+              "name": "Gallbladder and biliary diseases",
+              "cause": "B.4.8"
+            },
+            {
+              "id": 535,
+              "name": "Pancreatitis",
+              "cause": "B.4.9"
+            }
+          ]
+        },
+        {
+          "id": 542,
+          "name": "Neurological disorders",
+          "cause": "B.5",
+          "subcauses": [
+            {
+              "id": 543,
+              "name": "Alzheimer's disease and other dementias",
+              "cause": "B.5.1"
+            },
+            {
+              "id": 544,
+              "name": "Parkinson's disease",
+              "cause": "B.5.2"
+            },
+            {
+              "id": 545,
+              "name": "Idiopathic epilepsy",
+              "cause": "B.5.3"
+            },
+            {
+              "id": 546,
+              "name": "Multiple sclerosis",
+              "cause": "B.5.4"
+            },
+            {
+              "id": 554,
+              "name": "Motor neuron disease",
+              "cause": "B.5.5"
+            },
+            {
+              "id": 972,
+              "name": "Headache disorders",
+              "cause": "B.5.6",
+              "subcauses": [
+                {
+                  "id": 547,
+                  "name": "Migraine",
+                  "cause": "B.5.6.1"
+                },
+                {
+                  "id": 548,
+                  "name": "Tension-type headache",
+                  "cause": "B.5.6.2"
+                }
+              ]
+            },
+            {
+              "id": 557,
+              "name": "Other neurological disorders",
+              "cause": "B.5.7"
+            }
+          ]
+        },
+        {
+          "id": 558,
+          "name": "Mental disorders",
+          "cause": "B.6",
+          "subcauses": [
+            {
+              "id": 559,
+              "name": "Schizophrenia",
+              "cause": "B.6.1"
+            },
+            {
+              "id": 585,
+              "name": "Other mental disorders",
+              "cause": "B.6.10"
+            },
+            {
+              "id": 567,
+              "name": "Depressive disorders",
+              "cause": "B.6.2",
+              "subcauses": [
+                {
+                  "id": 568,
+                  "name": "Major depressive disorder",
+                  "cause": "B.6.2.1"
+                },
+                {
+                  "id": 569,
+                  "name": "Dysthymia",
+                  "cause": "B.6.2.2"
+                }
+              ]
+            },
+            {
+              "id": 570,
+              "name": "Bipolar disorder",
+              "cause": "B.6.3"
+            },
+            {
+              "id": 571,
+              "name": "Anxiety disorders",
+              "cause": "B.6.4"
+            },
+            {
+              "id": 572,
+              "name": "Eating disorders",
+              "cause": "B.6.5",
+              "subcauses": [
+                {
+                  "id": 573,
+                  "name": "Anorexia nervosa",
+                  "cause": "B.6.5.1"
+                },
+                {
+                  "id": 574,
+                  "name": "Bulimia nervosa",
+                  "cause": "B.6.5.2"
+                }
+              ]
+            },
+            {
+              "id": 575,
+              "name": "Autism spectrum disorders",
+              "cause": "B.6.6"
+            },
+            {
+              "id": 578,
+              "name": "Attention-deficit/hyperactivity disorder",
+              "cause": "B.6.7"
+            },
+            {
+              "id": 579,
+              "name": "Conduct disorder",
+              "cause": "B.6.8"
+            },
+            {
+              "id": 582,
+              "name": "Idiopathic developmental intellectual disability",
+              "cause": "B.6.9"
+            }
+          ]
+        },
+        {
+          "id": 973,
+          "name": "Substance use disorders",
+          "cause": "B.7",
+          "subcauses": [
+            {
+              "id": 560,
+              "name": "Alcohol use disorders",
+              "cause": "B.7.1"
+            },
+            {
+              "id": 561,
+              "name": "Drug use disorders",
+              "cause": "B.7.2",
+              "subcauses": [
+                {
+                  "id": 562,
+                  "name": "Opioid use disorders",
+                  "cause": "B.7.2.1"
+                },
+                {
+                  "id": 563,
+                  "name": "Cocaine use disorders",
+                  "cause": "B.7.2.2"
+                },
+                {
+                  "id": 564,
+                  "name": "Amphetamine use disorders",
+                  "cause": "B.7.2.3"
+                },
+                {
+                  "id": 565,
+                  "name": "Cannabis use disorders",
+                  "cause": "B.7.2.4"
+                },
+                {
+                  "id": 566,
+                  "name": "Other drug use disorders",
+                  "cause": "B.7.2.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 974,
+          "name": "Diabetes and kidney diseases",
+          "cause": "B.8",
+          "subcauses": [
+            {
+              "id": 587,
+              "name": "Diabetes mellitus",
+              "cause": "B.8.1",
+              "subcauses": [
+                {
+                  "id": 975,
+                  "name": "Diabetes mellitus type 1",
+                  "cause": "B.8.1.1"
+                },
+                {
+                  "id": 976,
+                  "name": "Diabetes mellitus type 2",
+                  "cause": "B.8.1.2"
+                }
+              ]
+            },
+            {
+              "id": 589,
+              "name": "Chronic kidney disease",
+              "cause": "B.8.2",
+              "subcauses": [
+                {
+                  "id": 997,
+                  "name": "Chronic kidney disease due to diabetes mellitus type 1",
+                  "cause": "B.8.2.1"
+                },
+                {
+                  "id": 998,
+                  "name": "Chronic kidney disease due to diabetes mellitus type 2",
+                  "cause": "B.8.2.2"
+                },
+                {
+                  "id": 591,
+                  "name": "Chronic kidney disease due to hypertension",
+                  "cause": "B.8.2.3"
+                },
+                {
+                  "id": 592,
+                  "name": "Chronic kidney disease due to glomerulonephritis",
+                  "cause": "B.8.2.4"
+                },
+                {
+                  "id": 593,
+                  "name": "Chronic kidney disease due to other and unspecified causes",
+                  "cause": "B.8.2.5"
+                }
+              ]
+            },
+            {
+              "id": 588,
+              "name": "Acute glomerulonephritis",
+              "cause": "B.8.3"
+            }
+          ]
+        },
+        {
+          "id": 653,
+          "name": "Skin and subcutaneous diseases",
+          "cause": "B.9",
+          "subcauses": [
+            {
+              "id": 654,
+              "name": "Dermatitis",
+              "cause": "B.9.1",
+              "subcauses": [
+                {
+                  "id": 977,
+                  "name": "Atopic dermatitis",
+                  "cause": "B.9.1.1"
+                },
+                {
+                  "id": 978,
+                  "name": "Contact dermatitis",
+                  "cause": "B.9.1.2"
+                },
+                {
+                  "id": 979,
+                  "name": "Seborrhoeic dermatitis",
+                  "cause": "B.9.1.3"
+                }
+              ]
+            },
+            {
+              "id": 664,
+              "name": "Urticaria",
+              "cause": "B.9.10"
+            },
+            {
+              "id": 665,
+              "name": "Decubitus ulcer",
+              "cause": "B.9.11"
+            },
+            {
+              "id": 668,
+              "name": "Other skin and subcutaneous diseases",
+              "cause": "B.9.12"
+            },
+            {
+              "id": 655,
+              "name": "Psoriasis",
+              "cause": "B.9.2"
+            },
+            {
+              "id": 980,
+              "name": "Bacterial skin diseases",
+              "cause": "B.9.3",
+              "subcauses": [
+                {
+                  "id": 656,
+                  "name": "Cellulitis",
+                  "cause": "B.9.3.1"
+                },
+                {
+                  "id": 657,
+                  "name": "Pyoderma",
+                  "cause": "B.9.3.2"
+                }
+              ]
+            },
+            {
+              "id": 658,
+              "name": "Scabies",
+              "cause": "B.9.4"
+            },
+            {
+              "id": 659,
+              "name": "Fungal skin diseases",
+              "cause": "B.9.5"
+            },
+            {
+              "id": 660,
+              "name": "Viral skin diseases",
+              "cause": "B.9.6"
+            },
+            {
+              "id": 661,
+              "name": "Acne vulgaris",
+              "cause": "B.9.7"
+            },
+            {
+              "id": 662,
+              "name": "Alopecia areata",
+              "cause": "B.9.8"
+            },
+            {
+              "id": 663,
+              "name": "Pruritus",
+              "cause": "B.9.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 687,
+      "name": "Injuries",
+      "cause": "C",
+      "subcauses": [
+        {
+          "id": 688,
+          "name": "Transport injuries",
+          "cause": "C.1",
+          "subcauses": [
+            {
+              "id": 689,
+              "name": "Road injuries",
+              "cause": "C.1.1",
+              "subcauses": [
+                {
+                  "id": 690,
+                  "name": "Pedestrian road injuries",
+                  "cause": "C.1.1.1"
+                },
+                {
+                  "id": 691,
+                  "name": "Cyclist road injuries",
+                  "cause": "C.1.1.2"
+                },
+                {
+                  "id": 692,
+                  "name": "Motorcyclist road injuries",
+                  "cause": "C.1.1.3"
+                },
+                {
+                  "id": 693,
+                  "name": "Motor vehicle road injuries",
+                  "cause": "C.1.1.4"
+                },
+                {
+                  "id": 694,
+                  "name": "Other road injuries",
+                  "cause": "C.1.1.5"
+                }
+              ]
+            },
+            {
+              "id": 695,
+              "name": "Other transport injuries",
+              "cause": "C.1.2"
+            }
+          ]
+        },
+        {
+          "id": 696,
+          "name": "Unintentional injuries",
+          "cause": "C.2",
+          "subcauses": [
+            {
+              "id": 697,
+              "name": "Falls",
+              "cause": "C.2.1"
+            },
+            {
+              "id": 842,
+              "name": "Environmental heat and cold exposure",
+              "cause": "C.2.10"
+            },
+            {
+              "id": 729,
+              "name": "Exposure to forces of nature",
+              "cause": "C.2.11"
+            },
+            {
+              "id": 1056,
+              "name": "Other unintentional injuries",
+              "cause": "C.2.12"
+            },
+            {
+              "id": 698,
+              "name": "Drowning",
+              "cause": "C.2.2"
+            },
+            {
+              "id": 699,
+              "name": "Fire, heat, and hot substances",
+              "cause": "C.2.3"
+            },
+            {
+              "id": 700,
+              "name": "Poisonings",
+              "cause": "C.2.4",
+              "subcauses": [
+                {
+                  "id": 701,
+                  "name": "Poisoning by carbon monoxide",
+                  "cause": "C.2.4.1"
+                },
+                {
+                  "id": 703,
+                  "name": "Poisoning by other means",
+                  "cause": "C.2.4.2"
+                }
+              ]
+            },
+            {
+              "id": 704,
+              "name": "Exposure to mechanical forces",
+              "cause": "C.2.5",
+              "subcauses": [
+                {
+                  "id": 705,
+                  "name": "Unintentional firearm injuries",
+                  "cause": "C.2.5.1"
+                },
+                {
+                  "id": 707,
+                  "name": "Other exposure to mechanical forces",
+                  "cause": "C.2.5.2"
+                }
+              ]
+            },
+            {
+              "id": 708,
+              "name": "Adverse effects of medical treatment",
+              "cause": "C.2.6"
+            },
+            {
+              "id": 709,
+              "name": "Animal contact",
+              "cause": "C.2.7",
+              "subcauses": [
+                {
+                  "id": 710,
+                  "name": "Venomous animal contact",
+                  "cause": "C.2.7.1"
+                },
+                {
+                  "id": 711,
+                  "name": "Non-venomous animal contact",
+                  "cause": "C.2.7.2"
+                }
+              ]
+            },
+            {
+              "id": 712,
+              "name": "Foreign body",
+              "cause": "C.2.8",
+              "subcauses": [
+                {
+                  "id": 713,
+                  "name": "Pulmonary aspiration and foreign body in airway",
+                  "cause": "C.2.8.1"
+                },
+                {
+                  "id": 714,
+                  "name": "Foreign body in eyes",
+                  "cause": "C.2.8.2"
+                },
+                {
+                  "id": 715,
+                  "name": "Foreign body in other body part",
+                  "cause": "C.2.8.3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 717,
+          "name": "Self-harm and interpersonal violence",
+          "cause": "C.3",
+          "subcauses": [
+            {
+              "id": 718,
+              "name": "Self-harm",
+              "cause": "C.3.1",
+              "subcauses": [
+                {
+                  "id": 721,
+                  "name": "Self-harm by firearm",
+                  "cause": "C.3.1.1"
+                },
+                {
+                  "id": 723,
+                  "name": "Self-harm by other specified means",
+                  "cause": "C.3.1.2"
+                }
+              ]
+            },
+            {
+              "id": 724,
+              "name": "Interpersonal violence",
+              "cause": "C.3.2",
+              "subcauses": [
+                {
+                  "id": 725,
+                  "name": "Physical violence by firearm",
+                  "cause": "C.3.2.1"
+                },
+                {
+                  "id": 726,
+                  "name": "Physical violence by sharp object",
+                  "cause": "C.3.2.2"
+                },
+                {
+                  "id": 941,
+                  "name": "Sexual violence",
+                  "cause": "C.3.2.3"
+                },
+                {
+                  "id": 727,
+                  "name": "Physical violence by other means",
+                  "cause": "C.3.2.4"
+                }
+              ]
+            },
+            {
+              "id": 945,
+              "name": "Conflict and terrorism",
+              "cause": "C.3.3"
+            },
+            {
+              "id": 854,
+              "name": "Police conflict and executions",
+              "cause": "C.3.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1058,
+      "name": "Other COVID-19 pandemic-related outcomes",
+      "cause": "D"
+    },
+    {
+      "id": 1029,
+      "name": "Total cancers",
+      "cause": "E"
+    },
+    {
+      "id": 1026,
+      "name": "Total burden related to hepatitis B",
+      "cause": "F"
+    },
+    {
+      "id": 1027,
+      "name": "Total burden related to hepatitis C",
+      "cause": "G"
+    },
+    {
+      "id": 1028,
+      "name": "Total burden related to Non-alcoholic fatty liver disease (NAFLD)",
+      "cause": "H"
+    },
+    {
+      "id": 1059,
+      "name": "Total Cancers excluding Non-melanoma skin cancer",
+      "cause": "I"
+    },
+    {
+      "id": 294,
+      "name": "All causes",
+      "cause": "Total"
+    }
+  ]
+}

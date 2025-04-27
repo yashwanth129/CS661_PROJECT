@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.panel {
+    padding: 20px;
+}
+
+.left-panel {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.right-panel {
+    width: 70%;
+    margin-left: 30%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 15px 0 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.filter-section {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.sex-filter {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.filter-item {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sex-checkbox {
+    margin-right: 5px;
+}
+
+#disease-tree {
+    margin-top: 10px;
+}
+
+.disease-item {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.disease-children {
+    margin-left: 20px;
+}
+
+.toggle-icon {
+    margin-right: 5px;
+    display: inline-block;
+    width: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.checkbox {
+    margin-right: 5px;
+}
+
+#map-container {
+    width: 100%;
+    height: 60vh;
+}
+
+#legend-container {
+    margin-top: 10px;
+    height: 50px;
+}
+
+#timeline-container {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#timeline-slider {
+    width: 100%;
+    height: 65px;
+    padding: 10px 0;
+}
+
+#timeline-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.control-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    min-width: 80px;
+    position: relative;
+}
+
+.control-button:hover {
+    background-color: #45a049;
+}
+
+.control-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#current-year-display {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    z-index: 1000;
+}
+
+.tooltip-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 3px;
+}
+
+.tooltip-graph {
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.tooltip-details {
+    margin-top: 5px;
+    line-height: 1.4;
+}
+
+.tooltip-loading {
+    font-style: italic;
+    color: #666;
+    margin: 8px 0;
+}
+
+.country {
+    cursor: pointer;
+    transition: fill 0.3s;
+}
+
+.country:hover {
+    stroke: #000;
+    stroke-width: 1px;
+}
+
+/* Timeline slider styles */
+.track {
+    stroke: #000;
+    stroke-opacity: 0.3;
+    stroke-width: 10px;
+}
+
+.track-inset {
+    stroke: #dcdcdc;
+    stroke-width: 8px;
+}
+
+.track-overlay {
+    pointer-events: stroke;
+    stroke-width: 50px;
+    stroke: transparent;
+    cursor: pointer;
+}
+
+.handle {
+    fill: #fff;
+    stroke: #000;
+    stroke-opacity: 0.5;
+    stroke-width: 1.25px;
+}
+
+.year-tick {
+    stroke: #000;
+    stroke-opacity: 0.3;
+    stroke-width: 1px;
+}
+
+.year-label {
+    font-size: 12px;
+    text-anchor: middle;
+}
+
+.year-dot {
+    fill: #555;
+}
+
+/* Line graph in tooltip styles */
+.line-graph-axis text {
+    font-size: 9px;
+}
+
+.line-graph-axis path, .line-graph-axis line {
+    stroke: #888;
+    stroke-width: 0.5;
+}
+
+.line-legend text {
+    font-size: 9px;
+}
+
+/* Loader animation */
+.loader {
+    width: 16px;
+    height: 16px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+    display: inline-block;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Line chart styles */
+#line-chart-container {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.line {
+    transition: opacity 0.2s, stroke-width 0.2s;
+}
+
+.hover-line {
+    pointer-events: none;
+}
+
+.tooltip-color-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.tooltip-row {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.tooltip-label {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.tooltip-content {
+    margin-top: 5px;
+}
+
+.overlay {
+    cursor: crosshair;
+}
+
+.legend-item {
+    transition: opacity 0.2s;
+}
+
+.x-axis-label, .y-axis-label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.loading-indicator, .error-message, .no-data-message {
+    text-align: center;
+    margin-top: 200px;
+    color: #666;
+    font-style: italic;
+}
+
+/* Breadcrumb styles */
+.breadcrumb-container {
+    margin: 10px 0;
+    padding: 8px 15px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.breadcrumb-item {
+    display: inline-block;
+    padding: 2px 5px;
+}
+
+.breadcrumb-separator {
+    color: #999;
+    margin: 0 5px;
+}
+
+.breadcrumb-item.clickable {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.breadcrumb-item.clickable:hover {
+    text-decoration: underline;
+}
+
+/* Bar chart styles */
+.bar {
+    transition: opacity 0.3s;
+}
+
+.bar:hover {
+    opacity: 0.8;
+}
+
+.bar-label {
+    font-size: 12px;
+    fill: #333;
+}
+
+.drill-indicator {
+    font-size: 14px;
+}
+
+/* Disease details styles */
+.disease-details {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.details-section {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.details-section h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.chart-container {
+    width: 100%;
+    min-height: 400px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.empty-data-message,
+.loading-message {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+/* Selected bar highlight */
+.selected-bar {
+    stroke: #000;
+    stroke-width: 2px;
+    stroke-dasharray: none;
+    opacity: 0.8;
+}
+
+/* Details header with close button */
+.details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.close-details {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #666;
+}
+
+.close-details:hover {
+    color: #000;
+}

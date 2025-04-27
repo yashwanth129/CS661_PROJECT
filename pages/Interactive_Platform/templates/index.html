@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBD Mortality Visualization</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="panel left-panel">
+            <h2>Filters</h2>
+            <div class="filter-section">
+                <h3>Sex Selection</h3>
+                <div class="sex-filter">
+                    <div class="filter-item">
+                        <input type="checkbox" id="male-filter" class="sex-checkbox" data-sex="1" checked>
+                        <label for="male-filter">Male</label>
+                    </div>
+                    <div class="filter-item">
+                        <input type="checkbox" id="female-filter" class="sex-checkbox" data-sex="2" checked>
+                        <label for="female-filter">Female</label>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-section">
+                <h3>Disease Selection</h3>
+                <div id="disease-tree"></div>
+            </div>
+        </div>
+        <div class="panel right-panel">
+            <h2>Mortality Rate Visualization</h2>
+            <div id="map-container"></div>
+            <div id="legend-container"></div>
+            <div id="timeline-container">
+                <div id="timeline-slider"></div>
+                <div id="timeline-controls">
+                    <button id="play-button" class="control-button">
+                        <span class="play-text">Play</span>
+                        <span class="loader" style="display: none;"></span>
+                    </button>
+                    <span id="current-year-display"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
+    <script src="{{ url_for('static', filename='js/visualization.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Disease Trends</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="panel left-panel">
+            <h2>Disease Trends: {{ country_name }}</h2>
+            
+            <div class="filter-section">
+                <h3>Sex Selection</h3>
+                <div class="sex-filter">
+                    <div class="filter-item">
+                        <input type="checkbox" id="male-checkbox" class="sex-checkbox" data-sex="1" checked>
+                        <label for="male-checkbox">Male</label>
+                    </div>
+                    <div class="filter-item">
+                        <input type="checkbox" id="female-checkbox" class="sex-checkbox" data-sex="2" checked>
+                        <label for="female-checkbox">Female</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <h3>Disease Selection</h3>
+                <div id="disease-tree"></div>
+            </div>
+            <div class="filter-section">
+                <button id="back-to-map" class="control-button">Back to Map</button>
+            </div>
+        </div>
+        
+        <div class="panel right-panel">
+            <h2>Disease Trends Over Time</h2>
+            
+            <div id="line-chart-container"></div>
+
+            <div id="sunburst-container" style="display: none; margin-top: 30px; border: 1px solid #ddd; border-radius: 4px; padding: 20px;">
+                <h3 id="sunburst-title">Disease Hierarchy Visualization</h3>
+                <div id="sunburst-chart"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+    <script>
+        const locationId = {{ location_id }};
+        const countryName = "{{ country_name }}";
+    </script>
+    <script src="{{ url_for('static', filename='js/country_detail.js') }}"></script>
+</body>
+</html>
